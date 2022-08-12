@@ -1,6 +1,6 @@
-import { GlobalStyle } from "./GlobalStyle";
+import { GlobalStyle } from "./utils/GlobalStyle";
 import { ThemeProvider } from "styled-components";
-import { theme } from "./theme";
+import { theme } from "./utils/theme.jsx";
 export const App = () => {
   return (
     <>
