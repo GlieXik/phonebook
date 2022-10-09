@@ -1,9 +1,9 @@
-import { createGlobalStyle } from 'styled-components';
- 
+import { createGlobalStyle } from "styled-components";
+
 export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
-    padding: 16px;
+
     }
     ul,ol{
       padding: 0;
@@ -13,6 +13,8 @@ export const GlobalStyle = createGlobalStyle`
   p{
     margin: 0;
   }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
 `;
- 
-
